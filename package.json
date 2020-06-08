@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
     "client": "0.0.1",
     "cookie-parser": "^1.4.5",
     "create-react-app": "^3.4.1",
@@ -23,9 +24,10 @@
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^1.19.4"
   },
-  "engines" :{
-    
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
   }
 }
