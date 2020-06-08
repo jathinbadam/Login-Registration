@@ -5,9 +5,9 @@ const mongoose  = require('mongoose');
 const Database = require("./config/keys.js")
 const userRouter = express.Router();
 
-app.use(cookieparser);
-app.use(express.json);
-
+app.use(cookieparser());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 //DB Config
 const db = Database.MongoURI;
